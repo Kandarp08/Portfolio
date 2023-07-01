@@ -1,0 +1,61 @@
+.pointer
+{
+	width: 4rem;
+	height: 4rem;
+    border-radius: 4rem 4rem 0;
+    transform: rotate(45deg);
+
+	position: relative;
+	background-color: #3066be;
+	color: black;
+	opacity: 0;
+}
+
+.timestamp
+{
+	position: relative; 
+	background-color: white;
+	height: 25px; 
+	width: 25px; 
+	border-radius: 50%;
+}
+	
+.innerDiv
+{
+	position: relative;
+	background-color: black;
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+
+    top: 6px; 
+    left: 6px; 
+    opacity: 0;
+}
+
+.dates
+{
+	color: white;
+	transform: rotate(-45deg);
+	position: relative;
+
+	left: 10px;
+	top: 17px;
+}
+
+#info
+{
+	position: absolute;
+	width: 100%;
+}
+
+.details
+{
+	position: relative;
+	float: left;
+	color: black;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	opacity: 0;
+}
