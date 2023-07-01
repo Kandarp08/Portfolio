@@ -91,7 +91,7 @@ function beginTimeline()
 		if (opacity == 0)
 			pos += 25;
 		
-		opacity = opacity + 0.01;
+		opacity = opacity + 0.05;
 
         document.getElementById("pointer" + elementId).style.opacity = opacity;
 		document.getElementById("innerDiv" + elementId).style.opacity = opacity;
