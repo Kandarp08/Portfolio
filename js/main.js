@@ -68,7 +68,3 @@ $(window).resize(function() {
         $( "#nav" ).removeClass("active");
     }
 });
-
-window.addEventListener("orientationchange", function() {
-  alert("Please switch to landscape mode");
-}, false);
