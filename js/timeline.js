@@ -1,5 +1,8 @@
 window.addEventListener("orientationchange", function() {
-  alert("Please switch to landscape mode");
+
+while (window.orientation == 0)
+	alert("Please switch to landscape mode");
+	
 }, false);
 
 
