@@ -1,3 +1,14 @@
+/* for all screens */
+#rotate {display: none;}
+
+/* only when orientation is in portrait mode */
+@media all and (orientation:portrait) {
+    #rotate {
+         display: block;
+    }
+}
+
+
 @font-face {
     font-family: 'novecentosanswide';
     src: url('../fonts/novecentosanswide-normal-webfont.eot');
