@@ -75,16 +75,4 @@ portrait.addEventListener("change", function(e)
 {
 	if (e.matches)
 		alert("Please rotate your phone");
-}
-
-
-
-
-
-
-
-
-
-
-
-
+});
