@@ -68,3 +68,19 @@ $(window).resize(function() {
         $( "#nav" ).removeClass("active");
     }
 });
+
+window.addEventListener("orientationchange", checkOrientation);
+window.addEventListener("load", checkOrientation);
+
+function checkOrientation()
+{
+	let id = setInterval(promptUser, 10);
+
+	function promptUser()
+	{
+		if (window.orientation == 0)
+			clearInterval(id);
+
+		alert("Please switch to landscape mode");
+	}
+}
