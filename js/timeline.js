@@ -1,3 +1,8 @@
+window.addEventListener("orientationchange", function() {
+  alert("Please switch to landscape mode");
+}, false);
+
+
 var path = document.getElementById("path");
 var container = document.getElementById("svg");
 
