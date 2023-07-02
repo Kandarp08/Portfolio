@@ -78,7 +78,7 @@ function checkOrientation()
 
 	function promptUser()
 	{
-		if (window.orientation == 0)
+		if (window.orientation != 0)
 			clearInterval(id);
 
 		alert("Please switch to landscape mode");
