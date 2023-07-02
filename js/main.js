@@ -69,10 +69,5 @@ $(window).resize(function() {
     }
 });
 
-let portrait = window.watchMedia("(orientation: portrait)");
-
-portrait.addEventListener("change", function(e)
-{
-	if (e.matches)
-		alert("Please rotate your phone");
-});
+if(window.innerHeight > window.innerWidth)
+    alert("Please view page in landscape mode");
