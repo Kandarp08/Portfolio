@@ -409,7 +409,7 @@ transition: all 0.5s ease-in-out;
     position: absolute;
     top: 0;
     width: 100%;
-    background: #6abb84;
+    background: #3066be;
 	opacity: 0.9;
 	border-radius: 50%;
 	behavior: url(css/PIE.htc);
