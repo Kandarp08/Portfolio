@@ -490,7 +490,7 @@ transition: all 0.5s ease-in-out;
     width:100%;
     overflow:hidden;
     display:table-footer-group;
-    background:#fff;
+    background:#fbfff1;
 }
 .footer-content {
 	max-width: 1170px;
