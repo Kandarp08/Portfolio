@@ -74,7 +74,10 @@ window.addEventListener("load", checkOrientation);
 
 function checkOrientation()
 {
-	let id = setInterval(promptUser, 10);
+	let id = null;
+	
+	if (window.orientation == 0)
+		id = setInterval(promptUser, 10);
 
 	function promptUser()
 	{
