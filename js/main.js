@@ -69,5 +69,6 @@ $(window).resize(function() {
     }
 });
 
-if(window.innerHeight > window.innerWidth)
-    alert("Please view page in landscape mode");
+window.addEventListener("orientationchange", function() {
+  alert("Please switch to landscape mode");
+}, false);
