@@ -1,12 +1,19 @@
-window.addEventListener("orientationchange", function() {
-
-while (Number(window.orientation) == 0)
+window.addEventListener("orientationchange", function() 
 {
-	alert("Please switch to landscape mode");
-}
+	while (Number(window.orientation) == 0)
+	{
+		alert("Please switch to landscape mode");
+	}
 	
 }, false);
 
+window.addEventListener("load", function()
+{
+	while (Number(window.orientation) == 0)
+	{
+		alert("Please switch to landscape mode");
+	}
+});
 
 var path = document.getElementById("path");
 var container = document.getElementById("svg");
