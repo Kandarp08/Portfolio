@@ -68,3 +68,23 @@ $(window).resize(function() {
         $( "#nav" ).removeClass("active");
     }
 });
+
+let portrait = window.watchMedia("(orientation: portrait)");
+
+portrait.addEventListener("change", function(e)
+{
+	if (e.matches)
+		alert("Please rotate your phone");
+}
+
+
+
+
+
+
+
+
+
+
+
+
