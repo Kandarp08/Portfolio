@@ -1,4 +1,5 @@
 fillWidth(document.getElementsByClassName("c")[0], 90);
+fillWidth(document.getElementsByClassName("matlab")[0], 80);
 fillWidth(document.getElementsByClassName("python")[0], 70);
 fillWidth(document.getElementsByClassName("java")[0], 40);
 fillWidth(document.getElementsByClassName("cpp")[0], 40);
