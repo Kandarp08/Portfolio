@@ -499,7 +499,7 @@ transition: all 0.5s ease-in-out;
 	border-radius: 50%;
 	behavior: url(css/PIE.htc);
 	text-indent: -9999px;
-	background: white;
+	background: #fbfff1;
 	width: 123px;
 	height: 123px;
 	position:relative;
