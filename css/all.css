@@ -275,6 +275,7 @@ h2.slogan{
 }
 
 .progress li span.c{width: 0%;}
+.progress li span.matlab{width: 0%;}
 .progress li span.python{width: 0%;}
 .progress li span.java{width: 0%;}
 .progress li span.cpp{width: 0%;}
