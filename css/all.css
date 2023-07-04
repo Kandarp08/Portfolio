@@ -139,7 +139,7 @@ a:hover{text-decoration:underline;}
     display:table-row;
 	background: #3066be;
 }
-.wrapper-holder.white{background: #fbfff1;}
+.wrapper-holder.white{background: white;}
 #header {
 	max-width: 1170px;
 	margin: 0 auto;
@@ -480,7 +480,7 @@ transition: all 0.5s ease-in-out;
     width:100%;
     overflow:hidden;
     display:table-footer-group;
-    background:#fbfff1;
+    background: white;
 }
 .footer-content {
 	max-width: 1170px;
@@ -499,7 +499,7 @@ transition: all 0.5s ease-in-out;
 	border-radius: 50%;
 	behavior: url(css/PIE.htc);
 	text-indent: -9999px;
-	background: #fbfff1;
+	background: white;
 	width: 123px;
 	height: 123px;
 	position:relative;
